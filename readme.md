@@ -31,11 +31,11 @@ If set to false, there can be no views checked. Also, child can be unchecked. Ve
 
 ##Usage in RadioGroup mode:
 
-![](https://github.com/appus-studio/Appus-RangeBar/blob/master/image/main.gif)
+![](https://github.com/appus-studio/CheckableItemViews/blob/master/image/gif2.gif)
 
 ##Usage in non-RadioGroup mode:
 
-![](https://github.com/appus-studio/Appus-RangeBar/blob/master/image/color.gif)
+![](https://github.com/appus-studio/CheckableItemViews/blob/master/image/gif1.gif)
 
 # Getting Started
 
