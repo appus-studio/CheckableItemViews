@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="checked_item" format="integer"/>
+    <attr name="orientation" format="string"/>
+    <attr name="radiogroup_mode" format="boolean"/>
+
+    <declare-styleable name="CheckableItemGroup">
+        <attr name="android:orientation" />
+        <attr name="radiogroup_mode" />
+        <attr name="checked_item" />
+    </declare-styleable>
+
+    <declare-styleable name="CheckableView">
+        <attr name="android:checked" />
+    </declare-styleable>
+</resources>
+

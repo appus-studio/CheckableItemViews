@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <pro.appus.checkableitemviews.CheckableItemGroup
+        android:id="@+id/group"
+        app:radiogroup_mode="true"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <pro.appus.checkableitemviews.checkable_views.CheckableImageView
+            android:id="@+id/item1"
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:background="@drawable/background_selector"
+            android:src="@drawable/icon" />
+
+        <pro.appus.checkableitemviews.checkable_views.CheckableTextView
+            android:id="@+id/item2"
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:gravity="center"
+            android:text="Item 2" />
+
+        <pro.appus.checkableitemviews.checkable_views.CheckableImageView
+            android:id="@+id/item3"
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:src="@drawable/icon" />
+
+        <pro.appus.checkableitemviews.checkable_views.CheckableTextView
+            android:id="@+id/item4"
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:gravity="center"
+            android:text="Item 4" />
+
+    </pro.appus.checkableitemviews.CheckableItemGroup>
+</RelativeLayout>

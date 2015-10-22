@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="menu_corporate_bkg">#9F3DAD</color>
+    <color name="menu_checked_bkg">#50000000</color>
+    <color name="menu_black">#000000</color>
+    <color name="shadow">#20000000</color>
+</resources>
