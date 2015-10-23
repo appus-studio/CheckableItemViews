@@ -93,7 +93,7 @@ If you want to implement your own views - it's very simple! Just implement Check
 Developed By
 ------------
 
-* Vladimir Erokhin, Appus Studio
+* Vladimir Yerokhin, Appus Studio
 
 
 * Roman Voronoy, Appus Studio
