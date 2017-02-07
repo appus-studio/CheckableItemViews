@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onCheckedChanged(CheckableView view, @IdRes int checkedId) {
                 if (view.isChecked()) {
-                    Toast.makeText(MainActivity.this, "Checked: " + checkedId, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Checked view with ID: " + checkedId, Toast.LENGTH_SHORT).show();
                 }
             }
         });

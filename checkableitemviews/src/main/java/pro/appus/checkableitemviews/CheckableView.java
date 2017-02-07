@@ -3,7 +3,7 @@ package pro.appus.checkableitemviews;
 import android.widget.Checkable;
 
 /**
- * Created by vladimiryerokhin on 10/8/15.
+ * Created by vladimiryerokhin on 10/8/15
  */
 public interface CheckableView extends Checkable {
 

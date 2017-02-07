@@ -11,7 +11,7 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
 /**
- * Created by vladimiryerokhin on 10/8/15.
+ * Created by vladimiryerokhin on 10/8/15
  */
 public class CheckableItemGroup extends LinearLayout {
     // holds the checked id; the selection is empty by default
@@ -70,10 +70,10 @@ public class CheckableItemGroup extends LinearLayout {
 
         final int index = attributes.getInt(R.styleable.CheckableItemGroup_android_orientation, VERTICAL);
         setOrientation(index == LinearLayout.HORIZONTAL ? LinearLayout.HORIZONTAL : LinearLayout.VERTICAL);
-        attributes.recycle();
         init();
 
         mIsRadioGroupMode = attributes.getBoolean(R.styleable.CheckableItemGroup_radiogroup_mode, false);
+        attributes.recycle();
     }
 
     private void init() {
