@@ -31,14 +31,9 @@ If set to false, there can be no views checked. Also, child can be unchecked. Ve
 
 # Demo
 
-##Usage in RadioGroup mode:
+##Usage in RadioGroup and non-RadioGroup mode:
 
-![](https://github.com/appus-studio/CheckableItemViews/blob/master/image/checkbox_mode.gif) ![](https://github.com/appus-studio/CheckableItemViews/blob/master/image/radiobutton_mode.gif)
-
-
-##Usage in non-RadioGroup mode:
-
-![](https://github.com/appus-studio/CheckableItemViews/blob/master/image/gif1.gif)
+![](https://github.com/appus-studio/CheckableItemViews/blob/master/image/radiobutton_mode.gif)     ![](https://github.com/appus-studio/CheckableItemViews/blob/master/image/checkbox_mode.gif)
 
 # Getting Started
 
