@@ -91,10 +91,9 @@ If you want to implement your own views - it's very simple! Just implement Check
 Developed By
 ------------
 
-* Vladimir Yerokhin, Appus Studio
+[Vladimir Yerokhin](https://github.com/vladimir-yerokhin-appus), Appus Studio
 
-
-* Roman Voronoy, Appus Studio
+[Roman Voronoy](https://github.com/roman-voronoy), Appus Studio
 
 License
 --------
