@@ -1,7 +1,6 @@
 package pro.appus.checkableexample;
 
 import android.os.Bundle;
-import android.support.annotation.IdRes;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
 
@@ -18,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         CheckableItemGroup checkableItemGroup = (CheckableItemGroup) findViewById(R.id.group);
         checkableItemGroup.setOnCheckedChangeListener(new CheckableItemGroup.OnCheckedChangeListener() {
             @Override
-            public void onCheckedChanged(CheckableView view, @IdRes int checkedId) {
+            public void onCheckedChanged(CheckableView view, int checkedId) {
                 if (view.isChecked()) {
                     Toast.makeText(MainActivity.this, "Checked view with ID: " + checkedId, Toast.LENGTH_SHORT).show();
                 }

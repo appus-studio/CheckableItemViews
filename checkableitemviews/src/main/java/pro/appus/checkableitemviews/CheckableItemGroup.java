@@ -4,7 +4,6 @@ import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.os.Build;
-import android.support.annotation.IdRes;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
@@ -138,7 +137,7 @@ public class CheckableItemGroup extends LinearLayout {
      * @see #getCheckedCheckableViewId()
      * @see #clearCheck()
      */
-    public void check(@IdRes int id) {
+    public void check(int id) {
         // don't even bother
         if (id != -1 && (id == mCheckedId)) {
             return;
@@ -155,7 +154,7 @@ public class CheckableItemGroup extends LinearLayout {
         setCheckedId(id);
     }
 
-    private void setCheckedId(@IdRes int id) {
+    private void setCheckedId(int id) {
         mCheckedId = id;
         if (mOnCheckedChangeListener != null) {
             View view = findViewById(id);
@@ -177,11 +176,10 @@ public class CheckableItemGroup extends LinearLayout {
      * Upon empty selection, the returned value is -1.</p>
      *
      * @return the unique id of the selected radio button in this group
-     * @attr ref android.R.styleable#RadioGroup_checkedButton
+     * attribute ref android.R.styleable#RadioGroup_checkedButton
      * @see #check(int)
      * @see #clearCheck()
      */
-    @IdRes
     public int getCheckedCheckableViewId() {
         return mCheckedId;
     }
@@ -235,13 +233,12 @@ public class CheckableItemGroup extends LinearLayout {
     }
 
     /**
-     * <p>This set of layout parameters defaults the width and the height of
+     * This set of layout parameters defaults the width and the height of
      * the children to {@link #WRAP_CONTENT} when they are not specified in the
-     * XML file. Otherwise, this class ussed the value read from the XML file.</p>
-     * <p/>
-     * <p>See
+     * XML file. Otherwise, this class ussed the value read from the XML file.
+     * See
      * {@link  LinearLayout Attributes}
-     * for a list of all child view attributes that this class supports.</p>
+     * for a list of all child view attributes that this class supports.
      */
     public static class LayoutParams extends LinearLayout.LayoutParams {
         /**
@@ -319,7 +316,7 @@ public class CheckableItemGroup extends LinearLayout {
          * @param group     the group in which the checked radio button has changed
          * @param checkedId the unique identifier of the newly checked radio button
          */
-        public void onCheckedChanged(CheckableView group, @IdRes int checkedId);
+        public void onCheckedChanged(CheckableView group, int checkedId);
     }
 
     private class CheckedStateTracker implements CheckableView.OnCheckedChangeListener {

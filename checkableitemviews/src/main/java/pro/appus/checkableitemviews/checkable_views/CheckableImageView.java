@@ -12,7 +12,7 @@ import pro.appus.checkableitemviews.CheckableView;
 import pro.appus.checkableitemviews.R;
 
 /**
- * Created by vladimiryerokhin on 10/9/15.
+ * Created by vladimiryerokhin on 10/9/15
  */
 public class CheckableImageView extends ImageView implements CheckableView {
 
