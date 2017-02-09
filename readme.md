@@ -42,7 +42,7 @@ If set to false, there can be no views checked. Also, child can be unchecked. Ve
    If you use JCenter repository in your project, just add dependence to main build.gradle:
 
         dependencies {
-                compile 'pro.appus:checkable-item-views:1.0.0'
+                compile 'pro.appus:checkableitemviews:1.0.0'
         }
    
    Else add repository to the same build.gradle:
