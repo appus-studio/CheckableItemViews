@@ -2,7 +2,7 @@ CheckableItemViews
 =====================
 
 
-Made in [![Appus Studio](https://github.com/appus-studio/Appus-Splash/blob/master/image/logo.png)](http://appus.pro)
+Made in [![Appus Studio](https://github.com/appus-studio/CheckableItemViews/blob/master/image/appus.png)](https://appus.software)
 
 CheckableItemViews is a library that allows you to use any views as RadioButtons. 
 You can combine ImageViews, TextViews and any views you need in one radiogroup and make them checkable. 
@@ -91,9 +91,9 @@ If you want to implement your own views - it's very simple! Just implement Check
 Developed By
 ------------
 
-[Vladimir Yerokhin](https://github.com/vladimir-yerokhin-appus), Appus Studio
+[Vladimir Yerokhin](https://github.com/vladimir-yerokhin-appus), [Appus Studio](https://appus.software)
 
-[Roman Voronoy](https://github.com/roman-voronoy), Appus Studio
+[Roman Voronoy](https://github.com/roman-voronoy), [Appus Studio](https://appus.software)
 
 License
 --------
